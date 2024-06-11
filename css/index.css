@@ -266,6 +266,20 @@ p3 {
 
 /* Feature Three Starts Here */
 
+.feature-3 {
+    width: auto;
+    height: 588px;
+    background: #DCECAF;
+    display: flex;
+}
+
+#featureContent-3 {
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    margin-left: 100px;
+}
+
 p4 {
     width: 453px;
     color: #000;
@@ -282,10 +296,8 @@ p4 {
 #imageContainer-3 {
     z-index: 1;
     position: absolute;
-    right: 56px;
-    width: 474px;
-    height: 407px;
-    bottom: -1880px;
+    right: 80px;
+    top: 2460px;
 }
 
 #featureImage-3 {

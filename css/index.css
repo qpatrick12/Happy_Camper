@@ -1,0 +1,416 @@
+body {
+    margin: 0%;
+}
+
+nav {
+    width: auto;
+    height: 62px;
+    background-color: #ACC270;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navButton {
+    display: flex;
+    height: 34px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: #FDA868;
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0px 32px 0px 0px;
+
+}
+
+#menu {
+    margin: 0px 120px 0px 20px;
+}
+
+/* Hero Section Starts Here */
+
+.Hero {
+    width: auto;
+    height: 809px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#heroImage {
+    position: absolute;
+    z-index: -1;
+}
+
+#heroContent {
+    height: auto;
+    width: 656px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -139px;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: "Mogra";
+    color: #526245;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+p1 {
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px; /* 145% */
+    width: 656px;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+#heroButton {
+    display: flex;
+    width: 328px;
+    height: 50px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-style: none;
+    border-radius: 10px;
+    background: #FDA868;
+    font-family: "Montserrat";
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 110% */
+    letter-spacing: -0.41px;
+}
+
+/* First Feature Section Strats Here */
+
+.feature-1 /* this is the section div*/ {
+    width: auto;
+    height: 588px;
+    background: #DCECAF;
+    display: flex;
+}
+
+#featureContent {
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    margin-left: 100px;
+}
+
+#imageContainer {
+    z-index: 1;
+    position: absolute;
+    right: 30px;
+    top: 990px;
+}
+
+#featureImage-1 {
+    width: 577px;
+    height: 446px;
+}
+
+h2 {
+    width: 856px;
+    height: 112px;
+    flex-shrink: 0;
+    color: #526245;
+    font-family: "Mogra";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p2 {
+    width: 410px;
+    color: #000;
+    font-family: 'Avenir';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    left: 418px;
+    top: -36px;
+}
+
+#featureButton-1 {
+    display: flex;
+    width: 328px;
+    height: 70px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FDA868;
+    color: #FFF;
+    font-family: "Avenir Next";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 110% */
+    letter-spacing: -0.41px;
+    border-style: none;
+    position: relative;
+    top: -50px;
+}
+
+/* Feature 2 Section Starts Here */
+
+.feature-2 /* this is the section div*/ {
+    width: auto;
+    height: 867px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#featureContent-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 104px;
+    margin-top: 172px;
+}
+
+#imageContainer-2 {
+    width: 507px;
+    height: 507px;
+    position: absolute;
+    left: 17px;
+    top: 1629px;
+}
+
+#featureImage-2 {
+    width: 507px;
+    height: 507px;
+
+}
+
+h3 {
+    width: 731px;
+    height: 155px;
+    flex-shrink: 0;
+    color: #526245;
+    font-family: "Mogra";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: right;
+}
+
+p3 {
+    width: 465px;
+    color: #000;
+    font-family: 'Avenir';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top: -88px;
+    right: 341px;
+}
+
+#featureButton-2 {
+    display: flex;
+    width: 328px;
+    height: 70px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FDA868;
+    color: #FFF;
+    font-family: "Avenir Next";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 110% */
+    letter-spacing: -0.41px;
+    border-style: none;
+    position: relative;
+    bottom: 82px;
+}
+
+/* Feature Three Starts Here */
+
+p4 {
+    width: 453px;
+    color: #000;
+    font-family: 'Avenir';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    left: 418px;
+    top: -36px;
+}
+
+#imageContainer-3 {
+    z-index: 1;
+    position: absolute;
+    right: 56px;
+    width: 474px;
+    height: 407px;
+    bottom: -1880px;
+}
+
+#featureImage-3 {
+    width: 474px;
+    height: 407px;
+}
+
+#featureButton-3 {
+    display: flex;
+    width: 328px;
+    height: 70px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FDA868;
+    color: #FFF;
+    font-family: "Avenir Next";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 110% */
+    letter-spacing: -0.41px;
+    border-style: none;
+    position: relative;
+    top: -117px;
+}
+
+/* Footer Starts Here */
+
+footer {
+    width: auto;
+    height: 486px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#parentDiv {
+    width: auto;
+    height: 364px;
+    background: #DCECAF;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#childDiv {
+    width: auto;
+    height: 306px;
+    background: #ACC270;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#childDiv2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#logoDiv {
+
+}
+
+#footerLogo {
+    width: 106px;
+    height: 68px;
+    position: relative;
+    left: -11px;
+}
+
+#socialMedia {
+    width: 146px;
+    height: 24px;
+}
+
+p5 {
+    width: 219px;
+    color: #4B6441;
+    font-family: "Avenir";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: block;
+}
+
+h4 {
+    color: #4B6441;
+    font-family: Avenir;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+p6 {
+    color: #FFF;
+    font-family: Avenir;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 218.182% */
+}
+
+hr {
+    border: 1px solid #4B6441 ;
+    width: 85%;
+}
+
+#childDiv3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h5 {
+    color: #FFF;
+    font-family: Avenir;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
